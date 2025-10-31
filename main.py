@@ -12,6 +12,7 @@ PWM_FREQ = 25000
 # 100Hz signal / 100 samples -> 100us resolution
 SINE_LUT_SIZE = 100
 
+
 # ===============================
 # SETUP
 # ===============================

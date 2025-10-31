@@ -1,0 +1,12 @@
+# To do
+- On/Off
+- U/I graph
+- set voltage
+- show voltage and current
+- show power
+- show input voltage
+- add lcd screen
+- add rotary encoder
+- add INA219 sensor
+- add DC-link powerup
+- add microSD reader
