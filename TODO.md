@@ -5,7 +5,7 @@
 - show voltage and current
 - show power
 - show input voltage
-- add lcd screen
+- add lcd screen - https://github.com/dhylands/python_lcd/tree/master
 - add rotary encoder
 - add INA219 sensor
 - add DC-link powerup
