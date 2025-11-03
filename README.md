@@ -23,3 +23,10 @@ $ cd BSTT
 # Build and deploy
 $ python deploy.py
 ```
+
+## Third party licenses
+This project includes code from:
+- "python_lcd" (https://github.com/dhylands/python_lcd) \
+  Copyright (c) 2013 Dave Hylands \
+  Licensed under the MIT License
+
