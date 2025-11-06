@@ -82,6 +82,7 @@ def main():
         print("Wipe filesystem...")
         run_shellcmd("mpremote rm -rv :")
     deploy_precompiled()
+    subprocess.run("mpremote run src/main.py", shell=True)
 
 
 if __name__ == "__main__":

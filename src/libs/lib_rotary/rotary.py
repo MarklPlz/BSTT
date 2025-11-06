@@ -3,9 +3,9 @@ from machine import Pin, Timer
 class Rotary:
     
     def __init__(self, dt, clk, sw, callbacks):
-        self.clk = Pin(clk, Pin.IN)
-        self.dt = Pin(dt, Pin.IN)
-        self.sw = Pin(sw, Pin.IN)
+        self.dt = dt
+        self.clk = clk
+        self.sw = sw
         self.last_rotary = False
         self.last_sw = False
         self.t_sw = Timer(freq=10, mode=Timer.PERIODIC, callback=self.handle_sw)
