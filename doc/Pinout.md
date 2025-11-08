@@ -10,4 +10,6 @@
 | Rotaryencoder | CLK | GP6 | Pin 9 |
 | Rotaryencoder | DT | GP7 | Pin 10 |
 | Rotaryencoder | SW | GP8 | Pin 11 |
-| PWM | PWM | GP15 | Pin 20 |
+| PWM | SD | GP10 | Pin 14 |
+| PWM | PWM | GP11 | Pin 15 |
+| PWM | Charge DC Link | GP12 | Pin 16 |
