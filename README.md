@@ -1,5 +1,5 @@
 # BSTT
-An application written in Micropython for the Raspberry Pico, which controls a step-down converter.
+An application written in Micropython for the Raspberry Pico, which controls a synchronous converter.
 
 ## Dependencies
 - mpremote
