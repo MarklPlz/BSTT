@@ -13,6 +13,7 @@ class Menu:
         }
         
     def display_start(self, voltage, current, power, mode):
+        self.display.clear()
         self.display.putstr(str(voltage) + " V")
         self.display.putstr("       ")
         self.display.putstr(mode)
@@ -48,9 +49,11 @@ class Menu:
     def handle_option(self, option_number):
         """ Logik für die ausgewählte Option. """
         if option_number == 0:
-            self.display.show_message("Option 1 ausgewählt")
+            self.display.clear()
+            self.display.putstr("Option 1 ausgewählt")
         elif option_number == 1:
-            self.display.show_message("Option 2 ausgewählt")
+            self.display.clear()
+            self.display.putstr("Option 2 ausgewählt")
             
     def get_current_menu(self):
         return self.current_menu, self.current_option
